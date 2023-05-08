@@ -3,11 +3,25 @@ import platform
 import subprocess
 import sys
 
-
 def check_ram():
-    # (Same as in the original code)
-    ...
+    if platform.system() == "Windows":
+        try:
+            total_memory = int(subprocess.check_output("wmic OS get TotalVisibleMemorySize /Value", shell=True).decode('utf-8').strip().split('=')[-1]) // 1024
+        except Exception as e:
+            print("Failed to get total RAM:", e)
+            total_memory = 0
+    elif platform.system() == "Linux":
+        try:
+            with open('/proc/meminfo', 'r') as meminfo:
+                total_memory = int(meminfo.readline().split()[1]) // 1024
+        except Exception as e:
+            print("Failed to get total RAM:", e)
+            total_memory = 0
+    else:
+        print("Unsupported operating system.")
+        total_memory = 0
 
+    return total_memory
 
 def install_vicuna():
     # Install FastChat
