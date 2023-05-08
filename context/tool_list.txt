@@ -1,0 +1,29 @@
+Nmap (Network Mapper) - A powerful network scanning tool used for network discovery, vulnerability scanning, and identifying open ports and services on target systems.
+
+Metasploit - A widely-used penetration testing framework that automates the process of exploiting known vulnerabilities in target systems and networks.
+
+Wireshark - A network protocol analyzer that allows you to capture and analyze network traffic in real-time, which is useful for troubleshooting, security analysis, and protocol development.
+
+Aircrack-ng - A suite of tools for 802.11 wireless network auditing, including tools for cracking WEP and WPA/WPA2 encryption keys.
+
+Burp Suite - A popular web application security testing tool that provides various features for intercepting and modifying HTTP/HTTPS traffic, scanning web applications for vulnerabilities, and brute-forcing login forms.
+
+Hydra - A fast and flexible network login cracker that supports many protocols, including HTTP, FTP, SSH, Telnet, and more.
+
+John the Ripper - A powerful password-cracking tool that supports a wide range of hashing algorithms, including DES, MD5, and SHA.
+
+SQLMap - An automated SQL injection tool that can detect and exploit SQL injection vulnerabilities in web applications.
+
+Nikto - A web server scanner that checks for misconfigurations, outdated software, and known vulnerabilities in web servers.
+
+ZAP (Zed Attack Proxy) - An easy-to-use web application security scanner that helps identify vulnerabilities in web applications.
+
+Armitage - A graphical user interface for Metasploit that simplifies the process of selecting and launching exploits against target systems.
+
+Social-Engineer Toolkit (SET) - A collection of social engineering tools designed to test an organization's defenses against human-based attacks, such as phishing, spear phishing, and other targeted attacks.
+
+Maltego - A data mining and visualization tool that helps gather information about individuals, organizations, and infrastructure.
+
+Snort - A powerful intrusion detection system (IDS) and intrusion prevention system (IPS) that can monitor and analyze network traffic to detect and prevent security breaches.
+
+Hashcat - A fast and versatile password recovery tool that supports various hashing algorithms and can utilize GPUs for faster cracking.
