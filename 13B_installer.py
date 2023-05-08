@@ -35,7 +35,7 @@ def install_vicuna():
 
     # Install the package
     subprocess.run([sys.executable, "-m", "pip", "install", "--upgrade", "pip"])
-    subprocess.run([sys.executable, "-m", "pip", "install", "-e", "."
+    subprocess.run([sys.executable, "-m", "pip", "install", "-e", "."])
   
   # Download LLaMA weights and apply delta to obtain Vicuna-13B weights
     print("Download LLaMA weights and follow instructions to obtain Vicuna-13B weights.")
